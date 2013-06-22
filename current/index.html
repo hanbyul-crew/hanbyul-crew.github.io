@@ -1,0 +1,44 @@
+---
+layout: default
+title: Your New Jekyll Site
+---
+
+
+
+
+        <div id="home" class="large-8 columns">
+
+          <div class="row">
+
+          	{% for post in site.posts %}
+              {% if post.categories contains 'works' %}
+            <a href="{{ post.url }}">
+            <div class="large-12 columns">
+
+              <img src=" {{post.thumbimg}}">
+ 
+              <div class="panel">
+                <h5>{{ post.title }} aw</h5>
+               </div>
+            </div>
+          </a>
+          {% endif %}
+    {% endfor %}
+
+          </div>
+    <!-- End Thumbnails -->
+ 
+ 
+    <!-- Managed By -->
+          <div class="row">
+            <div class="large-12 columns">
+              <div class="panel">
+                    <h4> Support us  </h4>
+                   </div>
+            </div>
+ 
+    <!-- End Managed By -->
+ 
+          </div>
+        </div>
+      </div>
