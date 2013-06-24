@@ -13,7 +13,7 @@ title: Your New Jekyll Site
               {% if post.categories contains 'works' %}
             <a href="{{ post.url }}">
             <div class="large-12 columns">
-              <div class="panel">
+              <div id="{{post.jqueryid}}" class="panel">
  
                 <h5>{{ post.title }}</h5>
               </div>
@@ -47,3 +47,16 @@ title: Your New Jekyll Site
           </div>
         </div>
       </div>
+
+            <script>
+$(document).ready( function() {
+
+ $("#cityinvader").css({
+    'background-image':'url("{{domain}}/img/background/cityinvader.jpg")',
+    'background-position' : '0px -130px'
+
+ });
+});
+
+      </script>
+

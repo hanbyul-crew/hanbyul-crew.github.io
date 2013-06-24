@@ -13,7 +13,7 @@ title: Your New Jekyll Site
           	{% for post in site.posts %}
               {% if post.categories contains 'works' %}
             <a href="{{ post.url }}">
-            <div class="large-12 columns">
+            <div id="{{post.id}}" class="large-12 columns">
 
               <img src=" {{post.thumbimg}}">
  
@@ -33,7 +33,7 @@ title: Your New Jekyll Site
           <div class="row">
             <div class="large-12 columns">
               <div class="panel">
-                    <h4> Support us  </h4>
+                    <h4> Support us !! </h4>
                    </div>
             </div>
  
@@ -42,3 +42,14 @@ title: Your New Jekyll Site
           </div>
         </div>
       </div>
+
+
+      <script>
+$(document).ready( function() {
+
+ $("#cityinvader").css({
+    "background-color":"red"
+ });
+};
+
+      </script>

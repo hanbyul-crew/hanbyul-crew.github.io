@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "short one"
-thumbimg: img/logo.png
+title:  "City Invader"
+jqueryid: cityinvader
 date:   2013-06-18 19:27:02
 categories: works
 ---
