@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Break Me"
-thumbimg: http://itp.nyu.edu/~hj657/hanbyul_crew/img/placeholder.jpg
+jqueryid: breakme
 date:   2013-06-18 19:27:02
 categories: works
 ---

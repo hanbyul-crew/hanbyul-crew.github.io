@@ -49,13 +49,29 @@ title: Your New Jekyll Site
       </div>
 
             <script>
+
+             var workslist = new Array();
+            {% for post in site.posts %}
+            
+              workslist.push("{{post.jqueryid}}");
+
+            {% endfor %}
+
+            console.log(workslist);
 $(document).ready( function() {
 
- $("#cityinvader").css({
-    'background-image':'url("{{domain}}/img/background/cityinvader.jpg")',
+
+  for(var i=0; i<workslist.length; i++){
+
+ $("#"+workslist[i]).css({
+    'background-image':'url(\"{{domain}}/img/background/'+workslist[i]+'.jpg\")',
     'background-position' : '0px -130px'
 
  });
+
+  }
+
+
 });
 
       </script>
