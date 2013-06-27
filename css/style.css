@@ -11,3 +11,11 @@
 .panel h5{
 	color:#fff;
 }
+
+.longwords{
+	text-overflow:ellipsis;
+}
+
+li{
+	list-style:none;
+}

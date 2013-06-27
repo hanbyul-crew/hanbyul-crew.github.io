@@ -9,20 +9,20 @@ title: Your New Jekyll Site
         <div id="home" class="large-8 columns">
 
           <div class="row">
-
+            <ul>
           	{% for post in site.posts %}
               {% if post.categories contains 'links' %}         
-          <div class="large-4 small-6 columns"> 
+              <li>
             <a href="{{ post.linkto }}">
-              <div class="panel">
                 <h5>{{ post.title }}</h5>
-               </div>
-             </div>
+            </li>
+               </a>
+           
          
-          </a>
+       
           {% endif %}
     {% endfor %}
-
+  </ul>
           </div>
     <!-- End Thumbnails -->
  
