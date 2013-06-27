@@ -7,14 +7,30 @@ title: Your New Jekyll Site
 
 
         <div id="home" class="large-8 columns">
-
+          <div class="large-12 columns">
           <div class="row">
+            <h6>Members</h6>
+            <ul>
+              <li>
+            <a href="http://hanbyul-here.net"> Hanbyul, Here </a> - Hanbyul Jo, cool
+              </li>
+              <li>
+            <a href="http://onecodeaday.net"> One Code a Day </a> - Inho Won, cool
+              </li>
+              <li>
+            <a href="http://www.sjnam.com/"> Sungjin Nam</a> - Yes.. Sungjin Nam
+            </li>
+          </ul>
+
+          </div>
+          <div class="row">
+
             <ul>
           	{% for post in site.posts %}
-              {% if post.categories contains 'links' %}         
+              {% if post.categories contains 'links' %}        
               <li>
             <a href="{{ post.linkto }}">
-                <h5>{{ post.title }}</h5>
+                <h6>{{ post.title }}</h6> blah blah<br> bahbahbah
             </li>
                </a>
            
@@ -24,6 +40,7 @@ title: Your New Jekyll Site
     {% endfor %}
   </ul>
           </div>
+        </div>
     <!-- End Thumbnails -->
  
  
