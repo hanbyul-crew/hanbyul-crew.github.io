@@ -12,34 +12,70 @@ title: Your New Jekyll Site
             <h6>Members</h6>
             <ul>
               <li>
-            <a href="http://hanbyul-here.net"> Hanbyul, Here </a> - Hanbyul Jo, cool
+            <a href="http://hanbyul-here.net"> Hanbyul, Here </a> 
               </li>
               <li>
-            <a href="http://onecodeaday.net"> One Code a Day </a> - Inho Won, cool
+            <a href="http://onecodeaday.net"> One Code a Day </a> 
               </li>
               <li>
-            <a href="http://www.sjnam.com/"> Sungjin Nam</a> - Yes.. Sungjin Nam
+            <a href="http://www.sjnam.com/"> Sungjin Nam</a> 
             </li>
           </ul>
 
           </div>
+
+          <div class="row">
+            <ul>
+              <h6>Open Source</h6>
+            {% for post in site.posts %}
+              {% if post.categories contains 'links' %}    
+                {% if post.subcategories contains 'opensource' %}         
+                 <li>
+                  <a href="{{ post.linkto }}">
+                    {{ post.title }}
+                  </a>
+                 </li>
+              {% endif %} 
+             {% endif %}
+            {% endfor %}
+           </ul>
+          </div>
+
+          <div class="row">
+            <ul>
+              <h6>Inspiration</h6>
+            {% for post in site.posts %}
+              {% if post.categories contains 'links' %}    
+                {% if post.subcategories contains 'inspiration' %}         
+                 <li>
+                  <a href="{{ post.linkto }}">
+                    {{ post.title }}
+                  </a>
+                 </li>
+              {% endif %} 
+             {% endif %}
+            {% endfor %}
+           </ul>
+          </div>
+
           <div class="row">
 
             <ul>
+              <h6>Teams</h6>
           	{% for post in site.posts %}
-              {% if post.categories contains 'links' %}        
-              <li>
-            <a href="{{ post.linkto }}">
-                <h6>{{ post.title }}</h6> blah blah<br> bahbahbah
-            </li>
-               </a>
-           
-         
-       
-          {% endif %}
-    {% endfor %}
-  </ul>
+              {% if post.categories contains 'links' %}    
+                {% if post.subcategories contains 'teams' %}         
+                 <li>
+                  <a href="{{ post.linkto }}">
+                    {{ post.title }}
+                  </a>
+                 </li>
+              {% endif %} 
+             {% endif %}
+            {% endfor %}
+           </ul>
           </div>
+
         </div>
     <!-- End Thumbnails -->
  

@@ -9,18 +9,12 @@ title: Your New Jekyll Site
         <div id="home" class="large-8 columns">
 
           <div class="row">
-          	{% for post in site.posts %}
-              {% if post.categories contains 'works' %}
-            <a href="{{ post.url }}">
+      
+   
             <div class="large-12 columns">
-              <div id="{{post.jqueryid}}" class="panel">
- 
-                <h5>{{ post.title }}</h5>
-              </div>
+              I dunno what to put, but it's gonna be index
              </div>
-          </a>
-          {% endif %}
-    {% endfor %}
+      
 
           </div>
     <!-- End Thumbnails -->
@@ -48,31 +42,4 @@ title: Your New Jekyll Site
         </div>
       </div>
 
-            <script>
-
-             var workslist = new Array();
-            {% for post in site.posts %}
-            
-              workslist.push("{{post.jqueryid}}");
-
-            {% endfor %}
-
-            console.log(workslist);
-$(document).ready( function() {
-
-
-  for(var i=0; i<workslist.length; i++){
-
- $("#"+workslist[i]).css({
-    'background-image':'url(\"{{domain}}/img/background/'+workslist[i]+'.jpg\")',
-    'background-position' : '0px -130px'
-
- });
-
-  }
-
-
-});
-
-      </script>
 

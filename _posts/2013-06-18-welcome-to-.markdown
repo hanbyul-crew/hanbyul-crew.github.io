@@ -5,6 +5,7 @@ linkto: http://everyware.kr
 thumbimg: img/placeholder
 date:   2013-06-18 19:27:02
 categories: links
+subcategories:team
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
