@@ -1,0 +1,4 @@
+var links = '{ "linsarray":['+
+'{"link":"http://everyware.kr","subcategory":"team"},'+
+'{"link":"http://www.creativeapplications.net/","subcategory":"inspiration"}]
+}';
