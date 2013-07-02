@@ -8,7 +8,7 @@ title: links
         <div id="home" class="large-8 columns">
           <div class="large-12 columns">
           <div class="row">
-            <h6>Members</h6>
+            <h6>Members - Here we are </h6>
             <ul>
               <li>
             <a href="http://hanbyul-here.net"> Hanbyul, Here </a> 
@@ -24,25 +24,18 @@ title: links
           </div>
 
           <div class="row">
-            <ul>
-              <h6>Open Source</h6>
-            {% for post in site.posts %}
-              {% if post.categories contains 'links' %}    
-                {% if post.subcategories contains 'opensource' %}         
-                 <li>
-                  <a href="{{ post.linkto }}">
-                    {{ post.title }}
-                  </a>
-                 </li>
-              {% endif %} 
-             {% endif %}
-            {% endfor %}
+            <ul id="team">
+              <h6>Open Source - Where we are from</h6>
+
+
            </ul>
+          
           </div>
+
 
           <div class="row">
             <ul>
-              <h6>Inspiration</h6>
+              <h6>Inspiration - How to keep going</h6>
             {% for post in site.posts %}
               {% if post.categories contains 'links' %}    
                 {% if post.subcategories contains 'inspiration' %}         
@@ -60,7 +53,7 @@ title: links
           <div class="row">
 
             <ul>
-              <h6>Teams</h6>
+              <h6>Friends - Dunno they also think we are their friends</h6>
           	{% for post in site.posts %}
               {% if post.categories contains 'links' %}    
                 {% if post.subcategories contains 'teams' %}         
@@ -103,22 +96,20 @@ title: links
         </div>
       </div>
 
+      <script>
+$(document).ready(function(){
+    $.getJSON("links.json",
+        function(data){
 
-    <script>
+            for(var i = 0; i<data.team.length;i++){
 
-
-
-          console.log("dang");
-      $.getJSON('links.json', function(data) {
-          console.log("dang");
-          console.log(data);
-        for (var i in data.linkarray) {
-          console.log(data.linkarray[i].url);
-       
-        }
-
+              var tempdata = data.team[i];
+           //   console.log(data.team[i]);
+          //    console.log(tempdata);
+              $("#team").append('<li><a href=\"'+tempdata.url+'\">'+tempdata.title+'</a></li>')
+            }
+            //console.log(data.team[i].url);
+        });
   });
+</script>
 
-
-
-    </script>

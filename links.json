@@ -1,4 +1,32 @@
-var links = '{ "linsarray":['+
-'{"link":"http://everyware.kr","subcategory":"team"},'+
-'{"link":"http://www.creativeapplications.net/","subcategory":"inspiration"}]
-}';
+{
+		"team":[
+    		{"title":"Hanbyul,here",
+    		"url":"http://hanbyul-here.net"},
+
+    		{"title":"One Code a Day",
+    		"url":"http://oncdoeaday.net"},
+
+			{"title":"Sungjin Nam",
+    		"url":"http://www.sjnam.com"}
+
+    		],
+
+		"opensource":[
+    		{"title":"Processing",
+    		"url":"http://processing.org/"},
+
+    		{"title":"OpenFrmaeworks",
+    		"url":"http://www.openframeworks.cc/"},
+
+			{"title":"Cinder",
+    		"url":"http://libcinder.org/"},
+
+    		{"title":"Arduino",
+    		"url":"http://arduino.cc/"},
+
+    		{"title":"Rasberry Pi",
+    		"url":"http://www.raspberrypi.org/"}
+
+    		]
+    	
+}
