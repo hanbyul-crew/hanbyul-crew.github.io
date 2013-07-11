@@ -1,10 +1,9 @@
 ---
 layout: post
-title:  "EveryWare"
-linkto: http://everyware.kr
-thumbimg: http://itp.nyu.edu/~hj657/hanbyul_crew/img/placeholder.jpg
-date:   2013-06-18 19:27:02
-categories: links
+title:  "Who is loser"
+jqueryid: whoisloser
+date:   2012-04-01
+categories: works
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!

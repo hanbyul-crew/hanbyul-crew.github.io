@@ -5,124 +5,56 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width" />
-  <title>한별단 || Hanbyul Crew from here?</title>
+  <title>Foundation 4</title>
 
-  <link rel="stylesheet" href="{{domain}}/css/foundation.css" />
-  <link rel="stylesheet" href="{{domain}}/css/foundation.css" />
-  <link rel="stylesheet" href="{{domain}}/css/style.css" />
-  <script src="{{domain}}/js/custom.modernizr.js"></script>
-  <script src="js/jquery-1.10.1.min.js"></script>
+  
+  <link rel="stylesheet" href="css/foundation.css" />
+  <link rel="stylesheet" href="css/style.css" />
+
+  <script src="js/vendor/custom.modernizr.js"></script>
 
 </head>
 <body>
-    <div class="large-12 columns">
+
+<!-- Nav Bar -->
+
  
+  <div class="row">
+    <div class="large-3 columns">
+      <h1> <canvas id="myCanvas" width="350px" height="100" style="border:1px solid #000000;"> </h1>
+    </div>
+    <div class="large-9 columns">
+      <ul class="button-group right">
+        <li><a href="works.html" class="button"> Works  </a></li>
+        <li><a href="blog.html" class="button"> Blog </a></li>
+        <li><a href="links.html" class="button"> Feed </a></li>
+      </ul>
+    </div>
+  </div>
+
     <!-- Navigation -->
  
     <!-- End Navigation -->
  
-      <div class="row">
- 
-  <!-- Side Bar -->
- 
-        <div class="large-4 small-12 columns">
-          <a href="{{domain}}">
-          <img src="{{domain}}/img/logo.png">
-        </a>
-           <a href="works.html">
-          <div class="panel callout radius centeraligned">
-            <h5> Works </h5>
-          </div>
-          </a>
 
-          <a href="current.html">
-          <div class="panel callout radius centeraligned">
-            <h5> Blog </h5>
-          </div>
-          </a>
-             <a href="links.html">
-              <div class="panel callout radius centeraligned">
-                <h5> Links </h5>
-              </div>
-              </a>
-        </div>
-       <div class="large-8 columns">
-        <div class="row">
-          <br>
-        </div>
-      </div>
 
 
                 {{ content }}           
- 
-      <footer class="row">
-        <div class="large-12 columns"><hr />
-          <div class="row">
- 
-            <div class="large-7 columns">
-              <p>&copy; Supported by <a href="http://foundation.zurb.com/">Foundation4</a>, <a href="http://jekyllrb.com/"> Jekyll</a>. </p>
-            </div>
- 
-            <div class="large-5 columns">
-              <ul class="inline-list right">
-                <li><a href="#">English</a></li>
-                <li><a href="#">Korean</a></li>
-              </ul>
-            </div>
- 
-          </div>
+   <footer class="row">
+    <div class="large-12 columns">
+      <hr />
+      <div class="row">
+        <div class="large-6 columns">
+          <p> Supported by <a href="http://jekyllrb.com/">Jekyll</a>, <a href="http://foundation.zurb.com/"> Foundation 4</a></p>
         </div>
-      </footer>
- 
-    <!-- End Footer -->
- 
+        <div class="large-6 columns">
+          <ul class="inline-list right">
+            <li><a href="#">Korean</a></li>
+            <li><a href="#">English</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
-  </div>
-
-  <script>
-  document.write('<script src=' +
-  ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
-  '.js><\/script>')
-  </script>
-  
-  <script src="js/foundation.min.js"></script>
-  <!--
-  
-  <script src="js/foundation/foundation.js"></script>
-  
-  <script src="js/foundation/foundation.alerts.js"></script>
-  
-  <script src="js/foundation/foundation.clearing.js"></script>
-  
-  <script src="js/foundation/foundation.cookie.js"></script>
-  
-  <script src="js/foundation/foundation.dropdown.js"></script>
-  
-  <script src="js/foundation/foundation.forms.js"></script>
-  
-  <script src="js/foundation/foundation.joyride.js"></script>
-  
-  <script src="js/foundation/foundation.magellan.js"></script>
-  
-  <script src="js/foundation/foundation.orbit.js"></script>
-  
-  <script src="js/foundation/foundation.reveal.js"></script>
-  
-  <script src="js/foundation/foundation.section.js"></script>
-  
-  <script src="js/foundation/foundation.tooltips.js"></script>
-  
-  <script src="js/foundation/foundation.topbar.js"></script>
-  
-  <script src="js/foundation/foundation.interchange.js"></script>
-  
-  <script src="js/foundation/foundation.placeholder.js"></script>
-  
-  -->
-  
-  <script>
-  console.log("{{domain}}");
-    $(document).foundation();
-  </script>
+  </footer>
 </body>
 </html>

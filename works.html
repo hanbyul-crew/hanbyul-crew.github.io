@@ -1,97 +1,69 @@
 ---
 layout: default
-title: Your New Jekyll Site
+title: 한별단 || Hanbyul Crew
 ---
-
-
-
-
-        <div id="home" class="large-8 columns">
-
-          <div class="row">
-                <div class="large-12 columns">
-              <h5> Current </h5>
-                </div>
-           </div>
-
-           <div class="row">
-             <div class="large-12 columns">
-                <div class="panel">
-                    nyanya
-                </div>
-              </div>
-            </div>
-          <div class="row">
-                <div class="large-12 columns">
-              <h5> Past </h5>
-                </div>
-           </div>
-
-          <div class="row">
-            {% for post in site.posts %}
-              {% if post.categories contains 'works' %}
-            <a href="{{ post.url }}">
-            <div class="large-12 columns">
-              <div id="{{post.jqueryid}}" class="panel">
+  <div class="row">
  
-                <h5>{{ post.title }}</h5>
-              </div>
+    <!-- Main Blog Content -->
+    <div class="large-9 columns" role="content">
+ 
+      <article>
+ 
+        <h3><a href="#">Break Me</a></h3>
+        <h6> Summer, 2012</h6>
+ 
+        <div class="row">
+
+                    <div class="large-12 columns">
+            <img src="http://placehold.it/800x240&text=[img]" />
+          </div>
              </div>
-          </a>
-          {% endif %}
-    {% endfor %}
+            <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa.</p>
+            <p>Boudin aliqua adipisicing rump corned beef. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.</p>
+      
 
-          </div>
-    <!-- End Thumbnails -->
+     
+ 
+        <p>Pork drumstick turkey fugiat. Tri-tip elit turducken pork chop in. Swine short ribs meatball irure bacon nulla pork belly cupidatat meatloaf cow. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.</p>
+ 
+        <p>Pork drumstick turkey fugiat. Tri-tip elit turducken pork chop in. Swine short ribs meatball irure bacon nulla pork belly cupidatat meatloaf cow. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.</p>
+ 
+      </article>
+ 
+    
+    </div>
+ 
+    <!-- End Main Content -->
  
  
-    <!-- Managed By -->
-          <div class="row">
-            <div class="large-12 columns">
-              <div class="panel">
-                <div class="row">
+    <!-- Sidebar -->
  
-          
+    <aside class="large-3 columns">
+    <h5>web</h5>
+      <ul class="side-nav">
+        <li><a href="#">Break Me</a></li>
+        <li><a href="#">Weather Pong</a></li>
+        <li><a href="#">Who is Loser</a></li>
+        <li><a href="#">Fun</a></li>
+        <li><a href="#">Weasels</a></li>
+      </ul>
+    <h5>installation</h5>
+      <ul class="side-nav">
+        <li><a href="#">Break Me</a></li>
+        <li><a href="#">Weather Pong</a></li>
+        <li><a href="#">Who is Loser</a></li>
+        <li><a href="#">Fun</a></li>
+        <li><a href="#">Weasels</a></li>
+      </ul>
+     <h5>etc</h5>
+      <ul class="side-nav">
+        <li><a href="#">Break Me</a></li>
+        <li><a href="#">Weather Pong</a></li>
+        <li><a href="#">Who is Loser</a></li>
+      </ul>
+
+    </aside>
  
-                  <div class="large-10 small-6 columns">
-                    <h4> Support us  </h4>
-                  </div>
+    <!-- End Sidebar -->
+  </div>
  
-                </div>
-              </div>
-            </div>
- 
-    <!-- End Managed By -->
- 
-          </div>
-        </div>
-      </div>
-
-            <script>
-
-             var workslist = new Array();
-            {% for post in site.posts %}
-            
-              workslist.push("{{post.jqueryid}}");
-
-            {% endfor %}
-
-            console.log(workslist);
-$(document).ready( function() {
-
-
-  for(var i=0; i<workslist.length; i++){
-
- $("#"+workslist[i]).css({
-    'background-image':'url(\"{{domain}}/img/background/'+workslist[i]+'.jpg\")',
-    'background-position' : '0px -130px'
-
- });
-
-  }
-
-
-});
-
-      </script>
-

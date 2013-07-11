@@ -1,21 +1,25 @@
-.centeraligned{
-  text-align: center;
+a{
+color:#cecece;
+
+}
+a:hover, a:focus {
+    color: #ff6869 ; }
+
+.side-nav li a{
+  color:#fff;
+  background-color:#000;
+  padding-left:10px;
 }
 
 
-.worksimg{
+button, .button{
 
- height:300px;
+  background-color:#000;
+  border-color:#fff;
 
 }
-.panel h5{
-	color:#fff;
-}
 
-.longwords{
-	text-overflow:ellipsis;
-}
-
-li{
-	list-style:none;
-}
+  button:hover, button:focus, .button:hover, .button:focus {
+    background-color: #ff6869 ;
+    color : #000;
+    }
