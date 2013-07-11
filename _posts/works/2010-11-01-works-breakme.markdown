@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "Who is loser"
-jqueryid: whoisloser
-date:   2012-04-01
-categories: works
+title:  "Break Me"
+season: Fall, 2010
+date:   2010-11-01
+category: works
+subcategory: installation
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!

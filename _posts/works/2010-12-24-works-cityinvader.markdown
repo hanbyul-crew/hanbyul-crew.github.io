@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "Break Me"
-jqueryid: breakme
-date:   2010-11-01
-categories: works
+title:  "City Invader"
+season: Winter, 2012
+date:   2010-12-24
+category: works
+subcategory: installation
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!

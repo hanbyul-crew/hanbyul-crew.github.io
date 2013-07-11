@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "Occupy Head Office"
-jqueryid: occupyheadoffice
-date:   2011-06-01
-categories: works
+title:  "Processing Workshop"
+date:   2011-07-01
+season: Summer, 2011
+category: works
+subcategory: etc
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!

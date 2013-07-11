@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "Weather Pong"
-jqueryid: weatherpong
-date:   2011-07-01
-categories: works
+title:  "Occupy Head Office"
+season: Summer, 2012
+date:   2011-06-01
+category: works
+subcategory: installation
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!

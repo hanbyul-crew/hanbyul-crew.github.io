@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "City Invader"
-jqueryid: cityinvader
-date:   2010-12-24
-categories: works
+title:  "Who is loser"
+date:   2012-04-01
+season: Spring, 2012
+category: works
+subcategory: web
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
