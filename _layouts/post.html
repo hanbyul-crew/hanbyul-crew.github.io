@@ -25,9 +25,7 @@ layout: default
             		<img src="http://placehold.it/800x240&text=[img]" />
           		</div>
              </div>
-            {{content}}
-  
-    
+            {{content}}  
   </p>
 </article>
 </div>
@@ -35,19 +33,17 @@ layout: default
       <!-- Sidebar -->
  
     <aside class="large-3 columns">
- {% if page.category contains 'works' %}
+ 	{% if page.category contains 'works' %}
     <h5>web</h5>
       <ul class="side-nav">
         {% for post in site.posts %}
-                  {% if post.category contains 'works' %}
-                      {% if post.subcategory contains 'web' %}
+                {% if post.subcategory contains 'web' %}
                 <li>
                   <a href="{{ post.url }}">
                         {{ post.title }}
                      </a>
                   </li>
                    {% endif %}
-              {% endif %}
         {% endfor %}
       </ul>
     <h5>installation</h5>
@@ -77,8 +73,10 @@ layout: default
                    {% endif %}
               {% endif %}
         {% endfor %}
-      </ul>
 
+      </ul>
+   {% endif %}
+
+	
     </aside>
 
- {% endif %}

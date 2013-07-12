@@ -42,12 +42,22 @@ title: Your New Jekyll Site
     <!-- Sidebar -->
  
     <aside class="large-3 columns">
+    {% for post in site.posts %}
+    {% if post.season contains 'summer, 2013' %}
     <h5>Summer 2013</h5>
       <ul class="side-nav">
-        <li><a href="#"> Jekyll을 기반으로 사이트만들기기 만들자 만들자</a></li>
+  
+           {% if post.category contains 'blog' %}
+                    <li>
+                  <a href="{{ post.url }}">
+                        {{ post.title }}
+                     </a>
+                  </li>
+           {% endif %}
 
       </ul>
-
+      {% endif %}
+   {% endfor %}
     </aside>
  
     <!-- End Sidebar -->
