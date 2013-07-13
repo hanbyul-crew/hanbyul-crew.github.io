@@ -6,14 +6,22 @@ title: 한별단 || Hanbyul Crew
  <script src="js/instafeed.min.js"></script>
 
 <script type="text/javascript">
+
     var feed = new Instafeed({
         get: 'tagged',
         tagName: 'hbcrew',
         clientId: '29ef09d44c1e45d5b378970cd1c2683f',
-        template:"{{model}}"
+        success:function(insta){
+            console.log(insta.data[0]);
+            var imageurl = insta.data[0].images.standard_resolution.url;
+            console.log(imageurl);
+            $("#insta").html("<img src=\""+imageurl+"\">");
+
+        }
 
     });
     feed.run();
+
 </script>
   <div class="row">
  
@@ -31,7 +39,7 @@ title: 한별단 || Hanbyul Crew
             <img src="http://placehold.it/800x240&text=[img]" />
           </div>
              </div>
-            <p> <div id="instafeed"></div> </p>
+            <p> <div id="insta"></div> </p>
  
       </article>
 
