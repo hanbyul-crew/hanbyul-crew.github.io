@@ -1,0 +1,56 @@
+---
+layout: default
+title: 한별단 || Hanbyul Crew
+---
+
+ <script src="js/instafeed.min.js"></script>
+
+<script type="text/javascript">
+    var feed = new Instafeed({
+        get: 'tagged',
+        tagName: 'hbcrew',
+        clientId: '29ef09d44c1e45d5b378970cd1c2683f',
+        template:"{{model}}"
+
+    });
+    feed.run();
+</script>
+  <div class="row">
+ 
+    <!-- Main Blog Content -->
+    <div class="large-9 columns" role="content">
+ 
+      <article>
+ 
+        <h3><a href="#">Break Me</a></h3>
+        <h6> Summer, 2012</h6>
+ 
+        <div class="row">
+
+            <div class="large-12 columns">
+            <img src="http://placehold.it/800x240&text=[img]" />
+          </div>
+             </div>
+            <p> <div id="instafeed"></div> </p>
+ 
+      </article>
+
+    
+    </div>
+ 
+    <!-- End Main Content -->
+ 
+ 
+    <!-- Sidebar -->
+ 
+    <aside class="large-3 columns">
+
+      <ul class="side-nav">
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">Instagram</a></li>
+      </ul>
+
+    </aside>
+ 
+    <!-- End Sidebar -->
+  </div>
