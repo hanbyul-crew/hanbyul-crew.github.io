@@ -35,8 +35,9 @@ layout: default
     <aside class="large-3 columns">
  	{% if page.category contains 'works' %}
     <h5>web</h5>
+            {% for post in site.posts %}
       <ul class="side-nav">
-        {% for post in site.posts %}
+
                 {% if post.subcategory contains 'web' %}
                 <li>
                   <a href="{{ post.url }}">
@@ -44,11 +45,11 @@ layout: default
                      </a>
                   </li>
                    {% endif %}
-        {% endfor %}
+   
       </ul>
     <h5>installation</h5>
       <ul class="side-nav">
-        {% for post in site.posts %}
+  
                   {% if post.category contains 'works' %}
                       {% if post.subcategory contains 'installation' %}
                 <li>
@@ -58,11 +59,11 @@ layout: default
                   </li>
                    {% endif %}
               {% endif %}
-        {% endfor %}
+ 
       </ul>
      <h5>etc</h5>
       <ul class="side-nav">
-        {% for post in site.posts %}
+    
                   {% if post.category contains 'works' %}
                       {% if post.subcategory contains 'etc' %}
                 <li>
@@ -72,11 +73,30 @@ layout: default
                   </li>
                    {% endif %}
               {% endif %}
-        {% endfor %}
+
 
       </ul>
-   {% endif %}
+      {% endfor %}
 
-	
+      {% endif %}
+
+
+	   {% if page.category contains 'blog' %}
+          {% for post in site.posts %}
+
+          {% if post.season contains 'summer, 2013' %}
+         <h5>Summer 2013</h5>
+      <ul class="side-nav">
+                    <li>
+                  <a href="{{ post.url }}">
+                        {{ post.title }}
+                     </a>
+                  </li>
+      
+      </ul>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+
     </aside>
 
