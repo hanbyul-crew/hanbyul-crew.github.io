@@ -7,6 +7,10 @@ title: 한별단 || Hanbyul Crew
 
 <script type="text/javascript">
 
+    $.getJSON("https://api.twitter.com/1.1/statuses/mentions_timeline.json",function(data){
+        console.log(data);
+
+    });
     var feed = new Instafeed({
         get: 'tagged',
         tagName: 'hbcrew',
@@ -17,14 +21,13 @@ title: 한별단 || Hanbyul Crew
             var imageurl = insta.data[i].images.standard_resolution.url;
             var imagetext = insta.data[i].caption.text;
             var imagetime = timeConverter(insta.data[i].created_time);
-            //console.log(timeConverter(imagetime));
-            if(i !== insta.data.legnth-1)
+ 
+            if(i !== insta.data.length-1)
             $("#insta").append("<center> <img src=\""+imageurl+"\"></p><p>"+imagetime+" </center> <hr>");
 
-            else  {$("#insta").append("<center> <img src=\""+imageurl+"\"></p><p>"+imagetext+"<p>"+imagetime+"</p> </center>");console.log("dingding");}
+            else  {$("#insta").append("<center> <img src=\""+imageurl+"\"></p><p>"+imagetext+"<p>"+imagetime+"</p> </center>");}
                      
             }
-
 
         }
 
