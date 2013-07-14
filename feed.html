@@ -7,10 +7,24 @@ title: 한별단 || Hanbyul Crew
 
 <script type="text/javascript">
 
-    $.getJSON("https://api.twitter.com/1.1/statuses/mentions_timeline.json",function(data){
-        console.log(data);
-
+$(document).ready(function() {
+    loadLatestTweet();
+    console.log(hellow);
+});
+function loadLatestTweet(){
+    var numTweets = 1;
+    var _url = 'https://api.twitter.com/1/statuses/user_timeline/CypressNorth.json?callback=?&count='+numTweets+'&include_rts=1';
+    $.getJSON(_url,function(data){
+    for(var i = 0; i< data.length; i++){
+            var tweet = data[i].text;
+            var created = parseDate(data[i].created_at);
+            var createdDate = created.getDate()+'-'+(created.getMonth()+1)+'-'+created.getFullYear()+' at '+created.getHours()+':'+created.getMinutes();
+            tweet = tweet.parseURL().parseUsername().parseHashtag();
+            tweet += '<div class="tweeter-info"><div class="uppercase bold"><a href="https://twitter.com/#!/CypressNorth" target="_blank" class="black">@CypressNorth</a></div><div class="right"><a href="https://twitter.com/#!/CypressNorth/status/'+data[i].id_str+'">'+createdDate+'</a></div></div>'
+            $("#twitter-feed").append('<p>'+tweet+'</p>');
+        }
     });
+}
     var feed = new Instafeed({
         get: 'tagged',
         tagName: 'hbcrew',
@@ -57,7 +71,9 @@ title: 한별단 || Hanbyul Crew
     <div class="large-9 columns" role="content">
  
       <article>
- 
+ <a class="twitter-timeline" href="https://twitter.com/boonpeel/favorites" data-widget-id="356441330643243009">Favorite Tweets by @boonpeel</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
             <p> <div id="insta"></div> </p>
  
       </article>
