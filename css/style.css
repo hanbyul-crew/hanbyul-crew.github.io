@@ -11,6 +11,13 @@ a:hover, a:focus {
   padding-left:10px;
 }
 
+article #example1 ul li {
+  list-style:none;
+  overflow:hidden;
+  border:1px solid #dedede;
+  margin:5px;
+  padding:5px;
+}
 
 button, .button{
 
