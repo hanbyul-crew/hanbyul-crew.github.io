@@ -23,6 +23,11 @@ button, .button{
 
 }
 
+.tweet{
+  padding-top:50px;
+  padding-bottom:50px;
+}
+
   button:hover, button:focus, .button:hover, .button:focus {
     background-color: #ff6869 ;
     color : #000;
