@@ -7,20 +7,16 @@ category: works
 subcategory: web
 ---
 
-You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
-To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
+![alt text](http://hanbyul-here.net/images/whoisloser/00.jpg "who is loser 0")
 
-Jekyll also offers powerful support for code snippets:
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+![alt text](http://hanbyul-here.net/images/whoisloser/01.jpg "who is loser 1")
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
 
-[jekyll-gh]: https://github.com/mojombo/jekyll
-[jekyll]:    http://jekyllrb.com
+![alt text](http://hanbyul-here.net/images/whoisloser/02.jpg "who is loser 2")
+
+
+Who is Loser is data visualization based on the result of election happened in South Korea in May, 2012. 
+
+Everyone knows who won the election, but no one cares about other candidates. We thought that spotlighting the data people usually don't care about would be helpful to recall the process or something other than result in the election. We put the candidate who got least votes on the top, and also displayed the vote he/she needs to meet minimum that the election law requires. Data was parsed from official election site, and visualized in real time. Arranged data covers all regions in Republic of Korea.
+ 

@@ -6,21 +6,19 @@ date:   2010-11-01
 category: works
 subcategory: installation
 ---
+<div class="flex-video">
+<iframe src="http://player.vimeo.com/video/27228269?title=0 byline=0 portrait=0" width="100%" frameborder="0"> </iframe>
+</div>
 
-You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
-To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
+![alt text](http://hanbyul-here.net/images/breakme/00.jpg "Break Me 0")
 
-Jekyll also offers powerful support for code snippets:
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+![alt text](http://hanbyul-here.net/images/breakme/01.jpg "Break Me 1")
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
 
-[jekyll-gh]: https://github.com/mojombo/jekyll
-[jekyll]:    http://jekyllrb.com
+![alt text](http://hanbyul-here.net/images/breakme/02.jpg "Break Me 2")
+
+
+'Break Me' is an interactive installation,responses to audiences' steps. 
+
+This piece reflects our consideration about 'interaction', powerful, but can be destructive intrinsically. There is a box, which has some lights inside of it. When Audiences open the box, their faces are captured and saved in the system.Then, the face is shoot and projected on floors of stairs.Floor breaks when audiences step on it.Audiences can see their broken face projected on floor.Some color effects were added on the side of stairs to make interaction clear.

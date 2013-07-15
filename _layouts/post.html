@@ -22,10 +22,10 @@ layout: default
 
              <div class="row">
                 <div class="large-12 columns">
-            		<img src="http://placehold.it/800x240&text=[img]" />
+                    {{content}}  
           		</div>
              </div>
-            {{content}}  
+          
   </p>
 </article>
 </div>
@@ -35,9 +35,9 @@ layout: default
     <aside class="large-3 columns">
  	{% if page.category contains 'works' %}
     <h5>web</h5>
-            {% for post in site.posts %}
-      <ul class="side-nav">
 
+      <ul class="side-nav">
+            {% for post in site.posts %}
                 {% if post.subcategory contains 'web' %}
                 <li>
                   <a href="{{ post.url }}">
@@ -45,12 +45,13 @@ layout: default
                      </a>
                   </li>
                    {% endif %}
+                        {% endfor %}
    
       </ul>
     <h5>installation</h5>
       <ul class="side-nav">
-  
-                  {% if post.category contains 'works' %}
+         {% for post in site.posts %}
+              
                       {% if post.subcategory contains 'installation' %}
                 <li>
                   <a href="{{ post.url }}">
@@ -58,13 +59,12 @@ layout: default
                      </a>
                   </li>
                    {% endif %}
-              {% endif %}
+                   {% endfor %} 
  
       </ul>
      <h5>etc</h5>
       <ul class="side-nav">
-    
-                  {% if post.category contains 'works' %}
+             {% for post in site.posts %}
                       {% if post.subcategory contains 'etc' %}
                 <li>
                   <a href="{{ post.url }}">
@@ -72,13 +72,14 @@ layout: default
                      </a>
                   </li>
                    {% endif %}
-              {% endif %}
 
-
+         {% endfor %}
       </ul>
-      {% endfor %}
+ 
 
       {% endif %}
+
+
 
 
 	   {% if page.category contains 'blog' %}

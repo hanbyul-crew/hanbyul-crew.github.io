@@ -7,20 +7,22 @@ category: works
 subcategory: installation
 ---
 
-You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
-To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
+<div class="flex-video">
+<iframe src="http://player.vimeo.com/video/32706947?title=0 byline=0 portrait=0" width="100%" frameborder="0"> </iframe>
+</div>
 
-Jekyll also offers powerful support for code snippets:
+![alt text](http://hanbyul-here.net/images/occupyheadoffice/00.jpg "Occupy Head Office 0")
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
+![alt text](http://hanbyul-here.net/images/occupyheadoffice/01.jpg "Occupy Head Office 1")
 
-[jekyll-gh]: https://github.com/mojombo/jekyll
-[jekyll]:    http://jekyllrb.com
+
+![alt text](http://hanbyul-here.net/images/occupyheadoffice/02.jpg "Occupy Head Office 2")
+
+
+![alt text](http://hanbyul-here.net/images/occupyheadoffice/03.jpg "Occupy Head Office 3")
+
+
+'Sound Invaders' is an interactive musical installation which responses to audience's control through iPad. This piece was part of 'Big Screen, Big Game' Project happened in Seoul Square Park. 
+
+Each invader represents a note with specific sound; eight of them can make one bar. By shooting invader (one note), audiences can compose their own music. Seoul Square Building is specail building dedicated to media exhibition, its wall is covered with LEDs, so the piece can be playes on its wall. This piece was strongly motivated by classic arcade game [Space Invader](http://en.wikipedia.org/wiki/Space_Invaders "Sound Invaders Wikipedia") . We love it!
