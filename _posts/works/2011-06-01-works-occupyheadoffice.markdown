@@ -23,6 +23,6 @@ subcategory: installation
 ![alt text](http://hanbyul-here.net/images/occupyheadoffice/03.jpg "Occupy Head Office 3")
 
 
-'Sound Invaders' is an interactive musical installation which responses to audience's control through iPad. This piece was part of 'Big Screen, Big Game' Project happened in Seoul Square Park. 
+'Occupy Head Office' is the interactive media project against university's incorrigible decision to incorporate the university.
 
-Each invader represents a note with specific sound; eight of them can make one bar. By shooting invader (one note), audiences can compose their own music. Seoul Square Building is specail building dedicated to media exhibition, its wall is covered with LEDs, so the piece can be playes on its wall. This piece was strongly motivated by classic arcade game [Space Invader](http://en.wikipedia.org/wiki/Space_Invaders "Sound Invaders Wikipedia") . We love it!
+In the summer of 2011, Seoul National University, the university I attend, made an arbitrary decision to incorporate the university without asking the students’ opinions. In consequence, students engaged in a sit-in protest, occupying the school’s administrative building, until the school agreed to hold talks with them. The sit-in protest had a cheerful mood; students held small music events or made parody music videos of the university’s rash and corrupt decision. We also went to the administrative building every night and projected sarcastic images or students’ opinions as gathered from Twitter.
