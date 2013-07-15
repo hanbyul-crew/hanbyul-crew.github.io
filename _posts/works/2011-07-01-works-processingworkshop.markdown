@@ -6,7 +6,7 @@ season: Summer, 2011
 category: works
 subcategory: etc
 ---
-
+<center>
 ![alt text](http://www.nemaf.net/xe/files/attach/images/403/259/011/45b56f15d883e086a80325534661ddea.jpg "HandMade D.I.Y workshops 0")
 
 
@@ -17,7 +17,7 @@ subcategory: etc
 
 
 ![alt text](http://www.nemaf.net/xe/files/attach/images/403/259/011/f8488b997f31edfe7be445a844172dd3_1.jpg "HandMade D.I.Y workshops 3s")
-
+</center>
 
 A workshop to approach electric circuit used in media art through needle, thread and fabric.
-First half lecture on hand made technology, explaining DIY concept, and second half on making LED based accessories using fabric DIY kit. It happend as a part of 11th New Media Art Festival[NEMAF](http://www.nemaf.net/ "Space Invaders Wikipedia") in Seoul.
+First half lecture on hand made technology, explaining DIY concept, and second half on making LED based accessories using fabric DIY kit. It happend as a part of  11th New Media Art Festival[NEMAF](http://www.nemaf.net/ "Space Invaders Wikipedia") in Seoul.
