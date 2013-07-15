@@ -22,4 +22,4 @@ subcategory: installation
 
 'Sound Invaders' is an interactive musical installation which responses to audience's control through iPad. This piece was part of 'Big Screen, Big Game' Project happened in Seoul Square Park. 
 
-Each invader represents a note with specific sound; eight of them can make one bar. By shooting invader (one note), audiences can compose their own music. Seoul Square Building is specail building dedicated to media exhibition, its wall is covered with LEDs, so the piece can be playes on its wall. This piece was strongly motivated by classic arcade game [Space Invader](http://en.wikipedia.org/wiki/Space_Invaders "Sound Invaders Wikipedia") . We love it!
+Each invader represents a note with specific sound; eight of them can make one bar. By shooting invader (one note), audiences can compose their own music. Seoul Square Building is specail building dedicated to media exhibition, its wall is covered with LEDs, so the piece can be playes on its wall. This piece was strongly motivated by classic arcade game [Space Invader](http://en.wikipedia.org/wiki/Space_Invaders "Space Invaders Wikipedia"). We love it!

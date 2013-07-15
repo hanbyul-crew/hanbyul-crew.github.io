@@ -1,26 +1,23 @@
 ---
 layout: post
-title:  "Processing Workshop"
+title:  "Handmade D.I.Y workshop"
 date:   2011-07-01
 season: Summer, 2011
 category: works
 subcategory: etc
 ---
 
-You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
-To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
+![alt text](http://www.nemaf.net/xe/files/attach/images/403/259/011/45b56f15d883e086a80325534661ddea.jpg "HandMade D.I.Y workshops 0")
 
-Jekyll also offers powerful support for code snippets:
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+![alt text](http://www.nemaf.net/xe/files/attach/images/403/259/011/fc580ef44a9429c94d95780b532354e2_1.jpg "HandMade D.I.Y workshops 1")
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
 
-[jekyll-gh]: https://github.com/mojombo/jekyll
-[jekyll]:    http://jekyllrb.com
+![alt text](http://www.nemaf.net/xe/files/attach/images/403/259/011/0e481c3859bf8c8a7a4e85c19b093c23.jpg "HandMade D.I.Y workshops 2")
+
+
+![alt text](http://www.nemaf.net/xe/files/attach/images/403/259/011/f8488b997f31edfe7be445a844172dd3_1.jpg "HandMade D.I.Y workshops 3s")
+
+
+A workshop to approach electric circuit used in media art through needle, thread and fabric.
+First half lecture on hand made technology, explaining DIY concept, and second half on making LED based accessories using fabric DIY kit. It happend as a part of 11th New Media Art Festival[NEMAF](http://www.nemaf.net/ "Space Invaders Wikipedia") in Seoul.
