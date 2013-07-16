@@ -42,24 +42,24 @@ title: Your New Jekyll Site
     <!-- Sidebar -->
  
     <aside class="large-3 columns">
-    {% for post in site.posts %}
-              {% if post.category contains 'blog' %}
-    {% if post.season contains 'summer, 2013' %}
-    <h5>Summer 2013</h5>
-      <ul class="side-nav">
-  
 
+
+         <h5>Summer 2013</h5>
+         <ul class="side-nav">
+          {% for post in site.posts %}
+
+          {% if post.season contains 'summer, 2013' %}
                     <li>
                   <a href="{{ post.url }}">
                         {{ post.title }}
                      </a>
                   </li>
-        
+      
+        {% endif %}
+      {% endfor %}
+         </ul>
 
-      </ul>
-      {% endif %}
-    {% endif %}
-   {% endfor %}
+
     </aside>
  
     <!-- End Sidebar -->
