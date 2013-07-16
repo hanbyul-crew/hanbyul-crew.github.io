@@ -13,11 +13,13 @@ layout: default
       <article>
  
         <h3><a href="#">{{page.title}}</a></h3>
+            {% if page.category contains work %}
         <h6> {{ page.season }}</h6>
- 
-     
-             
-
+              {% endif %}
+        
+             {% if page.category contains blog %}
+        <h6>  written by {{page.writer}}, {{ page.writingdate }}</h6>
+              {% endif %}
 		<p>
 
              <div class="row">
@@ -83,20 +85,22 @@ layout: default
 
 
 	   {% if page.category contains 'blog' %}
+
+         <h5>Summer 2013</h5>
+         <ul class="side-nav">
           {% for post in site.posts %}
 
           {% if post.season contains 'summer, 2013' %}
-         <h5>Summer 2013</h5>
-      <ul class="side-nav">
                     <li>
                   <a href="{{ post.url }}">
                         {{ post.title }}
                      </a>
                   </li>
       
-      </ul>
+   
         {% endif %}
       {% endfor %}
+         </ul>
     {% endif %}
 
     </aside>
