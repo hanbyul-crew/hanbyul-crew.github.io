@@ -13,11 +13,11 @@ layout: default
       <article>
  
         <h3><a href="#">{{page.title}}</a></h3>
-            {% if page.category contains work %}
+            {% if page.category contains 'works' %}
         <h6> {{ page.season }}</h6>
               {% endif %}
         
-             {% if page.category contains blog %}
+             {% if page.category contains 'blog' %}
         <h6>  written by {{page.writer}}, {{ page.writingdate }}</h6>
               {% endif %}
 		<p>
