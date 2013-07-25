@@ -13,6 +13,7 @@
 
   <script src="js/vendor/custom.modernizr.js"></script>
   <script src="js/jquery-1.10.1.min.js"></script>
+    <script src="js/processing.js" type="text/javascript"></script>
 
 </head>
 <body>
@@ -22,7 +23,18 @@
   <div class="row">
     <div class="large-3 columns">
       <a href="http://hanbyul-crew.github.io/">
-      <canvas id="myCanvas" width="350px" height="100" style="border:1px solid #000000;">
+    <div id="content">
+      <div>
+        <canvas id="hbcrewlogo" data-processing-sources="js/hbcrew_logo.pde" 
+            width="350" height="100">
+          <p>Your browser does not support the canvas tag.</p>
+          <!-- Note: you can put any alternative content here. -->
+        </canvas>
+        <noscript>
+          <p>JavaScript is required to view the contents of this page.</p>
+        </noscript>
+        </div>
+    </div>
       </a>
     </div> 
     <div class="large-9 columns">
