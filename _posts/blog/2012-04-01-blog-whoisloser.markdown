@@ -1,9 +1,10 @@
 ---
 layout: post
 title:  "Who is loser"
-date:   2012-04-01
-season: Spring, 2012
+season: summer, 2013
+writingdate:   2013-07-01
 category: blog
+writer: Hanbyul Jo 
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!

@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Jekyll을 기반으로 블로그형 홈페이지를 만들자"
+title:  "D3JS로 정보시각화에 도전해보자"
 season: summer, 2013
-writingdate: 2013-07-15
+writingdate: 2013-07-10
 category: blog
 writer: Hanbyul Jo
 ---
