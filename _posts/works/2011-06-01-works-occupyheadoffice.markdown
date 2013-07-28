@@ -8,19 +8,27 @@ subcategory: installation
 ---
 
 <div class="flex-video">
-<iframe src="http://player.vimeo.com/video/32706947?title=0 byline=0 portrait=0" width="100%" frameborder="0"> </iframe>
+<iframe src="http://player.vimeo.com/video/32706947?title=0 byline=0 portrait=0" frameborder="0"> </iframe>
 </div>
 
-![alt text](http://hanbyul-here.net/images/occupyheadoffice/00.jpg "Occupy Head Office 0")
+
+<div style="padding-bottom:20px;" class="large-4 small-6 columns">
+                            <img src="http://hanbyul-here.net/images/occupyheadoffice/00.jpg">
+            </div>
+           
+<div style="padding-bottom:20px;" class="large-4 small-6 columns">
+                            <img src="http://hanbyul-here.net/images/occupyheadoffice/01.jpg">
+            </div>
+            
+<div style="padding-bottom:20px;" class="large-4 small-6 columns">
+                            <img src="http://hanbyul-here.net/images/occupyheadoffice/02.jpg">
+            </div>
 
 
-![alt text](http://hanbyul-here.net/images/occupyheadoffice/01.jpg "Occupy Head Office 1")
 
-
-![alt text](http://hanbyul-here.net/images/occupyheadoffice/02.jpg "Occupy Head Office 2")
-
-
-![alt text](http://hanbyul-here.net/images/occupyheadoffice/03.jpg "Occupy Head Office 3")
+            <div style="padding-bottom:20px;" class="large-4 small-6 columns">
+                            <img src="http://hanbyul-here.net/images/occupyheadoffice/03.jpg">
+            </div>
 
 
 'Occupy Head Office' is the interactive media project against university's incorrigible decision to incorporate the university.
