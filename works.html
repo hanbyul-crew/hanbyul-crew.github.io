@@ -13,34 +13,15 @@ title: Hanbyul Crew Blog
  <article>
         <p>
    
-            <div style="padding-bottom:20px;" class="large-4 small-6 columns">
-                            <img src="http://placehold.it/500x500&text=Thumbnail">
-            </div>
 
- 
+            {% for post in site.posts %}
+                {% if post.category contains 'works' %}
             <div style="padding-bottom:20px;" class="large-4 small-6 columns">
-                  <img src="http://placehold.it/500x500&text=Thumbnail">
+                            <img src="{{post.thumbnail}}">
             </div>
- 
+                   {% endif %}
+            {% endfor %}
 
-            <div style="padding-bottom:20px;" class="large-4 small-6 columns">
-                            <img src="http://placehold.it/500x500&text=Thumbnail">
-            </div>
- 
-
-            <div style="padding-bottom:20px;" class="large-4 small-6 columns">
-                       <img src="http://placehold.it/500x500&text=Thumbnail">
-            </div>
- 
-
-
-            <div style="padding-bottom:20px;" class="large-4 small-6 columns">
-              <img src="http://placehold.it/500x500&text=Thumbnail">
-            </div>
-
-            <div style="padding-bottom:20px;" class="large-4 small-6 columns">
-                   <img src="http://placehold.it/500x500&text=Thumbnail">
-            </div>
    
         </p>
   

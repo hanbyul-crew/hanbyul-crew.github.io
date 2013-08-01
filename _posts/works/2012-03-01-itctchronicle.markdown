@@ -3,6 +3,7 @@ layout: post
 title:  "ITCT Chronicle"
 date:   2012-03-01
 season: Spring, 2012
+thumbnail: http://hanbyul-crew.github.io/img/thumbnails/itctchronicle.jpg
 category: works
 subcategory: web
 ---

@@ -3,6 +3,7 @@ layout: post
 title:  "Who is loser"
 date:   2012-04-01
 season: Spring, 2012
+thumbnail: http://hanbyul-crew.github.io/img/thumbnails/whoisloser.jpg
 category: works
 subcategory: web
 ---

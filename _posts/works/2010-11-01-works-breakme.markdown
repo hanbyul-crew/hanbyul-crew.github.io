@@ -4,6 +4,7 @@ title:  "Break Me"
 season: Fall, 2010
 date:   2010-11-01
 category: works
+thumbnail: http://hanbyul-crew.github.io/img/thumbnails/breakme.jpg
 subcategory: installation
 ---
 <div class="flex-video">

@@ -1,9 +1,10 @@
 ---
 layout: post
 title:  "Occupy Head Office"
-season: Summer, 2012
-date:   2011-06-01
 category: works
+season: Summer, 2012
+date:  2011-06-01
+thumbnail: http://hanbyul-crew.github.io/img/thumbnails/occupyheadoffice.jpg
 subcategory: installation
 ---
 

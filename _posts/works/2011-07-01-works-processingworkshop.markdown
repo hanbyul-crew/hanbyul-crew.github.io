@@ -3,6 +3,7 @@ layout: post
 title:  "Handmade D.I.Y workshop"
 date:   2011-07-01
 season: Summer, 2011
+thumbnail: http://hanbyul-crew.github.io/img/thumbnails/whoisloser.jpg
 category: works
 subcategory: etc
 ---

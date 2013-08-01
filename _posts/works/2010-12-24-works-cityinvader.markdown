@@ -2,7 +2,8 @@
 layout: post
 title:  "Sound Invaders"
 season: Winter, 2012
-date:   2010-12-24
+date:  2010-12-24
+thumbnail: http://hanbyul-crew.github.io/img/thumbnails/soundinvaders.jpg
 category: works
 subcategory: installation
 ---
