@@ -3,7 +3,7 @@ layout: post
 title:  "Joonhwan is awesome"
 date:   2012-05-15
 season: Spring, 2012
-thumbnail: http://hanbyul-crew.github.io/img/thumbnails/whoisloser.jpg
+thumbnail: http://hanbyul-crew.github.io/img/thumbnails/joonhwanisawesome.jpg
 category: works
 subcategory: web
 ---
