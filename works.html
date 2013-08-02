@@ -16,9 +16,11 @@ title: Hanbyul Crew Blog
 
             {% for post in site.posts %}
                 {% if post.category contains 'works' %}
+                <a href="{{post.url}}">
             <div style="padding-bottom:20px;" class="large-4 small-6 columns">
                             <img src="{{post.thumbnail}}">
             </div>
+          </a>
                    {% endif %}
             {% endfor %}
 
