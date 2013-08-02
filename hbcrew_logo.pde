@@ -1,6 +1,6 @@
 void setup(){
  
- size(50,100);
+ size(300,100);
  background(random(0,255),random(0,255),random(0,255));
  
 }
