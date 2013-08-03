@@ -7,7 +7,7 @@ thumbnail: http://hanbyul-crew.github.io/img/thumbnails/itctchronicle.jpg
 category: works
 subcategory: web
 ---
-![alt text](http://hanbyul-here.net/images/itctchronicle/01.jpg "itct chronicle 0")
+![alt text](http://hanbyul-here.net/images/itctchronicle/00.jpg "itct chronicle 0")
 
 ![alt text](http://hanbyul-here.net/images/itctchronicle/01.jpg "itct chronicle 1")
 
