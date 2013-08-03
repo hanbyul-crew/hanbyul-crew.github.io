@@ -7,10 +7,11 @@ thumbnail: http://hanbyul-crew.github.io/img/thumbnails/itctchronicle.jpg
 category: works
 subcategory: web
 ---
- 
-<div style="padding-bottom:20px;" class="large-4 small-6 columns">
-<img src="http://hanbyul-here.net/images/itctchronicle/00.jpg">
-</div>
+![alt text](http://hanbyul-here.net/images/itctchronicle/01.jpg "itct chronicle 0")
+
+![alt text](http://hanbyul-here.net/images/itctchronicle/01.jpg "itct chronicle 1")
+
+![alt text](http://hanbyul-here.net/images/itctchronicle/02.jpg "itct chronicle 2")
 
 ITCT Chronicle is data visualization which shows the history of Information Technology and Culture Technology (ITCT) major in Seoul National University. This data visualization is done to celebrate ITCT's 10 years anniversary.
 
