@@ -13,24 +13,12 @@ subcategory: installation
 </div>
 
 
-<div style="padding-bottom:20px;" class="large-4 small-6 columns">
-                            <img src="http://hanbyul-here.net/images/occupyheadoffice/00.jpg">
-            </div>
+![alt text](http://hanbyul-here.net/images/occupyheadoffice/00.jpg "occupy head office 0")
+                      
+![alt text](http://hanbyul-here.net/images/occupyheadoffice/01.jpg "occupy head office 1")
+
+![alt text](http://hanbyul-here.net/images/occupyheadoffice/02.jpg "occupy head office 2")
            
-<div style="padding-bottom:20px;" class="large-4 small-6 columns">
-                            <img src="http://hanbyul-here.net/images/occupyheadoffice/01.jpg">
-            </div>
-            
-<div style="padding-bottom:20px;" class="large-4 small-6 columns">
-                            <img src="http://hanbyul-here.net/images/occupyheadoffice/02.jpg">
-            </div>
-
-
-
-            <div style="padding-bottom:20px;" class="large-4 small-6 columns">
-                            <img src="http://hanbyul-here.net/images/occupyheadoffice/03.jpg">
-            </div>
-
 
 'Occupy Head Office' is the interactive media project against university's incorrigible decision to incorporate the university.
 
