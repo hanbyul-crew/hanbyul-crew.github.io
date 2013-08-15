@@ -166,9 +166,11 @@
     /** Lays out a venn diagram greedily, going from most overlapped sets to
     least overlapped, attempting to position each new set such that the
     overlapping areas to already positioned sets are basically right */
+   
     venn.greedyLayout = function(sets, overlaps) {
         // give each set a default position + radius
         var setOverlaps = {};
+
         for (var i = 0; i < sets.length; ++i) {
             setOverlaps[i] = [];
             sets[i].radius = Math.sqrt(sets[i].size / Math.PI);
@@ -195,7 +197,6 @@
                 for (i = 0; i < setOverlaps[set].length; ++i) {
                     size += setOverlaps[set][i].size;
                 }
-
                 mostOverlapped.push({set: set, size:size});
             }
         }
@@ -322,6 +323,7 @@
         return output;
     };
 
+
     /** Converts an integer to a string color value */
     function intToColour(x) {
         var base = x.toString(16);
@@ -330,7 +332,6 @@
         }
         return "#" + base;
     }
-
 
 
     /** computes loss by actually laying out the sets and counting the pixels

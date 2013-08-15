@@ -15,10 +15,7 @@ title: 한별단 || Hanbyul Crew
         <h3><a href="#"></a></h3>
         <h6></h6>
  
-<div class="dynamic"></div>
-
-
-
+      <div class="dynamic"></div>
 
       </article>
  
@@ -31,13 +28,10 @@ title: 한별단 || Hanbyul Crew
     <aside class="large-3 columns">
 
 
-      <ul style="padding-left:20px" class="side-nav">
+      <ul id="intro" style="padding-left:20px" class="side-nav">
         hello
-
-
-<input type="button" value="hitme" onclick="change()">
+        <input type="button" value="hitme" onclick="change()">
       </ul>
- 
 
 
     </aside>
@@ -54,60 +48,140 @@ var intersectionArray = new Array();
 
 var areas0 = new Array();
 
-    areas0.push({
-      sets:[0,1],
-      size:0
-    });
 
-    areas0.push({
-      sets:[1,2],
-      size:0
-    });
 
-    areas0.push({
-      sets:[0,2],
-      size:0
-    });
+  for(var i = 0; i<6; i++){
+    for(var j = (i+1); j<7; j++){
+
+      areas0.push({
+        sets:[i,j],
+        size:0
+      });
+
+      console.log(i +" "+j);
+
+    }
+  }
+    // areas0.push({
+    //   sets:[0,1],
+    //   size:0
+    // });
+
+    // areas0.push({
+    //   sets:[0,2],
+    //   size:0
+    // });
+
+
+    // areas0.push({
+    //   sets:[1,2],
+    //   size:0
+    // });
 
 var areas1 = new Array();
 
-    areas1.push({
-      sets:[0,1],
-      size:3
-    });
+  for(var i = 0; i<6; i++){
+    for(var j = (i+1); j<7; j++){
 
-    areas1.push({
-      sets:[1,2],
-      size:3
-    });
+      if( i=== 0){
+      areas1.push({
+        sets:[i,j],
+        size:1
+      });
 
+      }else{
     areas1.push({
-      sets:[0,2],
-      size:3
-    });
+        sets:[i,j],
+        size:0
+      });
+ 
+      }
+
+    }
+  }
+
+
+
+    // areas1.push({
+    //   sets:[0,1],
+    //   size:3
+    // });
+
+    // areas1.push({
+    //   sets:[1,2],
+    //   size:3
+    // });
+
+    // areas1.push({
+    //   sets:[0,2],
+    //   size:3
+    // });
 
 var areas2 = new Array();
 
-    areas2.push({
-      sets:[0,1],
-      size:3
-    });
 
-    areas2.push({
-      sets:[1,2],
-      size:3
-    });
+  for(var i = 0; i<6; i++){
+    for(var j = (i+1); j<7; j++){
+      //if(i===0)
+      areas2.push({
+        sets:[i,j],
+        size:0
+      });
 
-    areas2.push({
-      sets:[0,2],
-      size:3
-    });
+    }
+  }
+
+
+var areas3 = new Array();
+
+
+
+  for(var i = 0; i<6; i++){
+    for(var j = (i+1); j<7; j++){
+      //if(i===0)
+      areas3.push({
+        sets:[i,j],
+        size:0
+      });
+
+    }
+  }
+
+  var areas4 = new Array();
+
+  for(var i = 0; i<6; i++){
+    for(var j = (i+1); j<7; j++){
+      if(i===0 && j ===1)
+      areas4.push({
+        sets:[i,j],
+        size:0.3
+      });
+    else if (i ===0 && j===2)
+      areas4.push({
+        sets:[i,j],
+        size:0.3
+      });
+    else if (i ===1 && j===2)
+      areas4.push({
+        sets:[i,j],
+        size:0.3
+      });
+    else 
+      areas4.push({
+        sets:[i,j],
+        size:0.0
+      });
+
+    }
+
+  }
 
 
 intersectionArray.push(areas0);
 intersectionArray.push(areas1);
 intersectionArray.push(areas2);
-
+intersectionArray.push(areas3);
+intersectionArray.push(areas4);
 
 function getSetIntersections(areaIndex) {
 
@@ -119,24 +193,59 @@ function getSetIntersections(areaIndex) {
 var setArray = new Array();
 
 
-var sets0=[{"label": "남성진","color":"#aeaeae","size":"5"}, {"label":"원인호","color":"#aeaeae","size":"5"}, {"label": "조한별","color":"#aeaeae","size":"5"}], areas = [1,1,1];
+var sets0=[{"label": "","color":"#aeaeae","size":"0"},
+ {"label":"남성진","color":"#aeaeae","size":"5"},
+  {"label": "원인호","color":"#aeaeae","size":"5"}
+  ,{"label": "","color":"#aeaeae","size":"0"}
+  ,{"label": "","color":"#aeaeae","size":"0"}
+  ,{"label": "조한별","color":"#aeaeae","size":"5"}
+  ,{"label": "","color":"#aeaeae","size":"0"}], areas = [1,1,1,0,0,0,0];
 
-var sets1=[{"label": "서울대학교 ITCT","color":"#aeaeae","size":"3"}, {"label":"","color":"#aeaeae","size":"3"}, {"label": "","color":"#aeaeae","size":"3"}], areas = [1,1,1];
+var sets1=[{"label": "서울대학교 ITCT","color":"#aeaeae","size":"10"}, 
+{"label":"남성진","color":"#b5b1b1","size":"0.7"}, 
+{"label": "원인호","color":"#bab3c0","size":"1"},
+{"label": " ","color":"#b9c0b3","size":"0.8"},
+{"label": " ","color":"#c0b3b9","size":"1"},
+{"label": "조한별","color":"#b3c0ba","size":"0.7"},
+{"label": " ","color":"#aeaeae","size":"1"}], areas = [1,1,1,1,1,1,1];
 
-var sets2=[{"label": "공동체","color":"#aeaeae","size":"5"}, {"label":"컴퓨팅","color":"#aeaeae","size":"5"}, {"label": "아트","color":"#aeaeae","size":"5"}], areas = [1,1,1];
+var sets2 = [{"label": "설치","color":"#aeaeae","size":"3"}, 
+{"label":"웹","color":"#b4b0bd","size":"0.3"}, 
+{"label": "잉여","color":"#aeaeae","size":"0.5"},
+{"label": "모바일","color":"#b9c0b3","size":"0.8"},
+{"label": "게임","color":"#c0b3b9","size":"1.2"},
+{"label": "","color":"#b3c0ba","size":"0.01"},
+{"label": "사운드","color":"#aeaeae","size":"1.2"}
+], areas = [1,1,1,1,1,1,1];
 
+var sets3 = [{"label": "설치","color":"#aeaeae","size":"0.7"}, 
+{"label":"웹","color":"#b4b0bd","size":"1.7"}, 
+{"label": "잉여","color":"#aeaeae","size":"0.5"},
+{"label": "모바일","color":"#b9c0b3","size":"0.5"},
+{"label": "게임","color":"#c0b3b9","size":"1.0"},
+{"label": "데이타","color":"#b3c0ba","size":"1.3"},
+{"label": "3D","color":"#aeaeae","size":"1.5"}
+], areas = [1,1,1,0,0,0,0];
+
+
+var sets4=[{"label": "공동체","color":"#aeaeae","size":"1"}, 
+{"label":"컴퓨팅","color":"#aeaeae","size":"1"}, 
+{"label": "아트","color":"#aeaeae","size":"1"},
+{"label": "","color":"#b9c0b3","size":"0"},
+{"label": "","color":"#c0b3b9","size":"0"},
+{"label": "","color":"#b3c0ba","size":"0"},
+{"label": "","color":"#aeaeae","size":"0"}
+], areas = [1,1,1,0,0,0,0];
 
 setArray.push(sets0);
 setArray.push(sets1);
 setArray.push(sets2);
+setArray.push(sets3);
+setArray.push(sets4);
 
 function getSets(setindex) {
-
     return setArray[setindex];
 }
-
-
-
 
 
 // draw the initial set
@@ -153,20 +262,18 @@ var change = function(){
 //});
 };
 
-var w = 700;
-var h = 500;
+var w = 650;
+var h = 650;
 
 venn.drawD3Diagram(d3.select(".dynamic"), sets, w, h);
 venn.updateD3Diagram(d3.select(".dynamic"), sets);
 var targetWidth = 700;
 
-
-var aspect = 1 / 2,
+var aspect = 1,
     chart = $("#chart");
     console.log("hellohleoo");
     console.log(chart);
 
-    
 //var w = targetWidth;
 //var h = targetWidth * aspect;
 
