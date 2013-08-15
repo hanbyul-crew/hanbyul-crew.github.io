@@ -15,11 +15,151 @@ title: 한별단 || Hanbyul Crew
         <h3><a href="#"></a></h3>
         <h6></h6>
  
+<div class="dynamic"></div>
 
-            <p>
-              <img src="http://hanbyul-crew.github.io/img/profile.jpg">
-            </p>
- 
+<input type="button" value="hitme" onclick="change()">
+<script src="http://d3js.org/d3.v2.min.js"></script>
+<script src="js/venn.js"></script>
+<script>
+
+
+var index = 0;
+
+
+var intersectionArray = new Array();
+
+var areas0 = new Array();
+
+    areas0.push({
+      sets:[0,1],
+      size:0
+    });
+
+    areas0.push({
+      sets:[1,2],
+      size:0
+    });
+
+    areas0.push({
+      sets:[0,2],
+      size:0
+    });
+
+var areas1 = new Array();
+
+    areas1.push({
+      sets:[0,1],
+      size:3
+    });
+
+    areas1.push({
+      sets:[1,2],
+      size:3
+    });
+
+    areas1.push({
+      sets:[0,2],
+      size:3
+    });
+
+var areas2 = new Array();
+
+    areas2.push({
+      sets:[0,1],
+      size:3
+    });
+
+    areas2.push({
+      sets:[1,2],
+      size:3
+    });
+
+    areas2.push({
+      sets:[0,2],
+      size:3
+    });
+
+
+intersectionArray.push(areas0);
+intersectionArray.push(areas1);
+intersectionArray.push(areas2);
+
+
+function getSetIntersections(areaIndex) {
+
+    var areas = intersectionArray[areaIndex];
+    return areas;
+}
+
+
+var setArray = new Array();
+
+
+var sets0=[{"label": "남성진","color":"#aeaeae","size":"5"}, {"label":"원인호","color":"#aeaeae","size":"5"}, {"label": "조한별","color":"#aeaeae","size":"5"}], areas = [1,1,1];
+
+var sets1=[{"label": "서울대학교 ITCT","color":"#aeaeae","size":"3"}, {"label":"","color":"#aeaeae","size":"3"}, {"label": "","color":"#aeaeae","size":"3"}], areas = [1,1,1];
+
+var sets2=[{"label": "공동체","color":"#aeaeae","size":"5"}, {"label":"컴퓨팅","color":"#aeaeae","size":"5"}, {"label": "아트","color":"#aeaeae","size":"5"}], areas = [1,1,1];
+
+
+setArray.push(sets0);
+setArray.push(sets1);
+setArray.push(sets2);
+
+function getSets(setindex) {
+
+    return setArray[setindex];
+}
+
+
+
+
+
+// draw the initial set
+var sets = venn.venn(getSets(index), getSetIntersections(index));
+
+// redraw the sets on any change in input
+
+var change = function(){
+
+    index++;
+    index%=setArray.length;
+    var anothersets = venn.venn(getSets(index), getSetIntersections(index));
+    venn.updateD3Diagram(d3.select(".dynamic"), anothersets);
+//});
+};
+
+var w = 700;
+var h = 500;
+
+venn.drawD3Diagram(d3.select(".dynamic"), sets, w, h);
+venn.updateD3Diagram(d3.select(".dynamic"), sets);
+var targetWidth = 700;
+
+
+var aspect = 2 / 3,
+    chart = $("#chart");
+    console.log("hellohleoo");
+    console.log(chart);
+
+    
+//var w = targetWidth;
+//var h = targetWidth * aspect;
+
+$(window).on("resize", function() {
+
+    var targetWidth = $(".large-9").width();//chart.parent().parent().parent().width();
+    chart.attr("width", targetWidth);
+    chart.attr("height", targetWidth * aspect);
+    console.log(chart.width());
+    venn.updateD3Diagram(d3.select(".dynamic"), sets);
+   // w = targetWidth, h = targetWidth*aspect;
+
+});
+
+</script>
+
+
       </article>
  
     
