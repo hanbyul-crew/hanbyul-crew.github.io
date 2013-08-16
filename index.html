@@ -16,7 +16,9 @@ title: 한별단 || Hanbyul Crew
     </div>
 
     <aside class="large-3 columns">
-       <h5>Hi !</h5>
+
+       <h5 id="introTitle">   Hi !   </h5>
+ 
       <ul id="intro" class="side-nav">
 안녕하세요 한별단입니다. 저희는 세계 각지에서 컴퓨터로 조금은 덜 유용한 일을 하고 있습니다.
       </ul>
@@ -190,6 +192,13 @@ var sets = venn.venn(getSets(index), getSetIntersections(index));
 // redraw the sets on any change in input
 
 
+var titleArray = new Array();
+
+titleArray.push("<h5> Hi! </h5>");
+titleArray.push("<h5> Where we are from </h5>");
+titleArray.push("<h5> so now, </h5>");
+titleArray.push("<h5> and then?</h5>");
+
 
 
 
@@ -201,6 +210,7 @@ introArray.push("그 이후로 웹, 데이타 등의 영역으로 관심사를 �
 introArray.push("새로운 기술이 가지는 예술로서의 가능성을 함께 찾아나가고자 노력중입니다.");
 
 var introbox = $("#intro");
+var titlebox = $("#introTitle");
 
 var change = function(){
 
@@ -209,6 +219,7 @@ var change = function(){
     var anothersets = venn.venn(getSets(index), getSetIntersections(index));
     venn.updateD3Diagram(d3.select(".dynamic"), anothersets);
     introbox.html(introArray[index]);
+    titlebox.html(titleArray[index]);
 
 };
 
