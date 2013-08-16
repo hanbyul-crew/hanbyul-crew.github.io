@@ -27,7 +27,12 @@
       <div>
        <!-- <canvas id="hbcrewlogo" data-processing-sources="http://hanbyul-crew.github.io/hbcrew_logo.pde" 
             width="300" height="100">-->
-          <img src = "http://hanbyul-crew.github.io/img/logoone.jpg"><h5 style="display:inline;"> Hanbyul Crew </h5>
+            <canvas width="500" height = "100" id="logobox">
+    <img src = "http://hanbyul-crew.github.io/img/logoone.jpg">
+
+     
+</canvas>
+           <h5 style="display:inline;"> Hanbyul Crew </h5>
          <!-- <p>Your browser does not support the canvas tag.</p>
           <!-- Note: you can put any alternative content here. -->
         <!--</canvas>-->
@@ -77,5 +82,53 @@
     </div>
   </footer>
   
+
+<script>
+var c = document.getElementById("logobox");
+var ctx= c.getContext("2d");
+ctx.lineWidth = 3;
+ctx.width = 400;
+ctx.height = 200;
+ctx.beginPath();
+
+polygon(ctx,50,50,35,5,-Math.PI/2);
+ctx.stroke();
+
+
+function polygon(ctx, x, y, radius, sides, startAngle, anticlockwise) {
+  var points = new Array();
+
+  if (sides < 3) return;
+  var a = (Math.PI * 2)/sides;
+  a = anticlockwise?-a:a;
+  ctx.save();
+  ctx.translate(x,y);
+  ctx.rotate(startAngle);
+  ctx.moveTo(radius,0);
+  for (var i = 1; i < sides; i++) {
+    ctx.lineTo(radius*Math.cos(a*i),radius*Math.sin(a*i));
+    points.push({x:radius*Math.cos(a*i),y:radius*Math.sin(a*i)});
+  }
+  ctx.closePath();
+ 
+  var center = {
+    x:Math.random()*-40+20,
+    y:Math.random()*-20+10
+  };
+  
+    ctx.lineTo(center.x,center.y);
+
+  for(var i =0; i<points.length; i++){
+    ctx.lineTo(points[i].x,points[i].y);
+    ctx.moveTo(center.x,center.y);
+  }
+
+  ctx.closePath();
+  ctx.restore();
+
+
+
+}
+</script>
 </body>
 </html>
