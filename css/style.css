@@ -38,3 +38,22 @@ button, .button{
     background-color: #ff6869 ;
     color : #000;
     }
+
+
+    
+.arrow_button{
+
+  left:0px;
+  background:white;
+  border: 1px solid;
+  box-shadow:0px 0px 0px;
+  margin-left:10px;
+}
+
+.arrow_button:hover {
+  left:0px;
+  background:white;
+  border: 1px solid;
+  margin-left:10px;
+  box-shadow:1px 1px #f6a828 inset;  
+}
