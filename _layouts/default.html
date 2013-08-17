@@ -32,7 +32,7 @@
 
      
 </canvas>
-           <h5 style="display:inline;"> Hanbyul Crew </h5>
+           <h5 style="display:inline;"> </h5>
          <!-- <p>Your browser does not support the canvas tag.</p>
           <!-- Note: you can put any alternative content here. -->
         <!--</canvas>-->
@@ -88,10 +88,16 @@ var c = document.getElementById("logobox");
 var ctx= c.getContext("2d");
 ctx.lineWidth = 3;
 ctx.width = 400;
-ctx.height = 200;
+ctx.height = 150;
+      ctx.font = '20pt Helvetica-Bold';
+      ctx.fillStyle = 'black';
+      ctx.fillText('Hanbyul Crew', 120, 60);
 ctx.beginPath();
+ctx.fillStyle = '#000000';
 
+ctx.strokeStyle = "#ffffff";
 polygon(ctx,50,50,35,5,-Math.PI/2);
+ctx.fill();
 ctx.stroke();
 
 
@@ -105,10 +111,12 @@ function polygon(ctx, x, y, radius, sides, startAngle, anticlockwise) {
   ctx.translate(x,y);
   ctx.rotate(startAngle);
   ctx.moveTo(radius,0);
-  for (var i = 1; i < sides; i++) {
+
+  for (var i = 0; i < sides; i++) {
     ctx.lineTo(radius*Math.cos(a*i),radius*Math.sin(a*i));
     points.push({x:radius*Math.cos(a*i),y:radius*Math.sin(a*i)});
   }
+
   ctx.closePath();
  
   var center = {
