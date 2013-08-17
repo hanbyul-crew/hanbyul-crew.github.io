@@ -11,6 +11,12 @@ a:hover, a:focus {
   padding-left:10px;
 }
 
+.side-nav li a:hover{
+  color:#fff;
+  background-color:#ff6869;
+  padding-left:10px;
+}
+
 ul, ol, dl {
   list-style:none;
   padding:5px;
