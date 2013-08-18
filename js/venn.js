@@ -578,7 +578,7 @@
                .text(function(d) { return d.label; });
     };
 
-    venn.updateD3Diagram = function(element, dataset) {
+    venn.updateD3Diagram = function(element, dataset,center) {
         var svg = element.select("svg"),
             width = parseInt(svg.attr('width'), 10),
             height = parseInt(svg.attr('height'), 10);
@@ -588,7 +588,7 @@
             .data(dataset)
             .transition()
             .duration(400)
-            .attr("cx", function(d) { return d.x; })
+            .attr("cx", function(d) { var temp = center ? d.x+w/5 : d.x; return temp; })
             .attr("cy", function(d) { return d.y; })
             .style("fill", function(d, i) { return d.color; })
             .attr("r",  function(d) { return d.radius; });
@@ -597,7 +597,7 @@
             .data(dataset)
             .transition()
             .duration(400)
-            .attr("x", function(d) { return d.x; })
+            .attr("x", function(d) {var temp = center ? d.x+w/5 : d.x; return temp;})
             .attr("y", function(d) { return d.y; })
             .text(function(d) { return d.label; });
     };

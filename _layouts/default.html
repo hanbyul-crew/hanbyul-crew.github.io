@@ -7,7 +7,6 @@
   <meta name="viewport" content="width=device-width"/>
       <title> 한별단 || Hanbyul Crew</title>
 
-  
   <link rel="stylesheet" href="http://hanbyul-crew.github.io/css/foundation.css" />
   <link rel="stylesheet" href="http://hanbyul-crew.github.io/css/style.css" />
 
@@ -27,7 +26,7 @@
       <div>
        <!-- <canvas id="hbcrewlogo" data-processing-sources="http://hanbyul-crew.github.io/hbcrew_logo.pde" 
             width="300" height="100">-->
-            <canvas width="315" height = "100" id="logobox">
+            <canvas width="315" height = "75" id="logobox">
     <img src = "http://hanbyul-crew.github.io/img/logoone.jpg">
 
      
@@ -88,10 +87,11 @@ var c = document.getElementById("logobox");
 var ctx= c.getContext("2d");
 ctx.lineWidth = 3;
 ctx.width = 315;
-ctx.height = 150;
+ctx.height = 90;
+
       ctx.font = '20pt courier';
       ctx.fillStyle = 'black';
-      ctx.fillText('Hanbyul Crew', 120, 60);
+      ctx.fillText('Hanbyul Crew', 100, 60);
 ctx.beginPath();
 ctx.fillStyle = '#000000';
 

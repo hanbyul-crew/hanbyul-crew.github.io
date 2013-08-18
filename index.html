@@ -76,7 +76,6 @@ var areas1 = new Array();
 
 var areas2 = new Array();
 
-
   for(var i = 0; i<6; i++){
     for(var j = (i+1); j<7; j++){
       //if(i===0)
@@ -200,8 +199,6 @@ titleArray.push("<h5> so now, </h5>");
 titleArray.push("<h5> and then?</h5>");
 
 
-
-
 var introArray = new Array();
 
 introArray.push("안녕하세요 한별단입니다. 저희는 세계 각지에서 컴퓨터로 조금은 덜 유용한 일을 하고 있습니다. ");
@@ -217,21 +214,22 @@ var change = function(){
     index++;
     index%=setArray.length;
     var anothersets = venn.venn(getSets(index), getSetIntersections(index)); 
-    venn.updateD3Diagram(d3.select(".dynamic"), anothersets);
+  if(index ==0) venn.updateD3Diagram(d3.select(".dynamic"), anothersets,false);
+  else venn.updateD3Diagram(d3.select(".dynamic"), anothersets,true);
     introbox.html(introArray[index]);
     titlebox.html(titleArray[index]);
 
 };
 
 var w = $(".large-9").width();
-var h = w;
+var h = w/2;
 
 venn.drawD3Diagram(d3.select(".dynamic"), sets, w, h);
-venn.updateD3Diagram(d3.select(".dynamic"), sets);
+venn.updateD3Diagram(d3.select(".dynamic"), sets,false);
 
 var targetWidth = $(".large-9").width();
 
-var aspect = 1,
+var aspect = 1/2,
     chart = $("#chart");
 
 $(window).on("resize", function() {
