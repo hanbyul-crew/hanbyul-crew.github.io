@@ -216,20 +216,20 @@ var change = function(){
 
     index++;
     index%=setArray.length;
-    var anothersets = venn.venn(getSets(index), getSetIntersections(index));
+    var anothersets = venn.venn(getSets(index), getSetIntersections(index)); 
     venn.updateD3Diagram(d3.select(".dynamic"), anothersets);
     introbox.html(introArray[index]);
     titlebox.html(titleArray[index]);
 
 };
 
-var w = 650;
-var h = 650;
+var w = $(".large-9").width();
+var h = w;
 
 venn.drawD3Diagram(d3.select(".dynamic"), sets, w, h);
 venn.updateD3Diagram(d3.select(".dynamic"), sets);
 
-var targetWidth = 700;
+var targetWidth = $(".large-9").width();
 
 var aspect = 1,
     chart = $("#chart");
