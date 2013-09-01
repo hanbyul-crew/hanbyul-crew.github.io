@@ -86,8 +86,7 @@
 var c = document.getElementById("logobox");
 var ctx= c.getContext("2d");
 ctx.lineWidth = 2;
-ctx.lineJoin = 'round';
-ctx.lineCap = 'round';
+
 ctx.width = 315;
 ctx.height = 90;
 
@@ -95,6 +94,9 @@ ctx.height = 90;
       ctx.fillStyle = 'black';
       ctx.fillText('Hanbyul Crew', 100, 60);
 ctx.beginPath();
+ctx.lineJoin = 'round';
+ctx.lineCap = 'round';
+ctx.webkitImageSmoothingEnabled = true;
 ctx.fillStyle = '#000000';
 
 ctx.strokeStyle = "#ffffff";
