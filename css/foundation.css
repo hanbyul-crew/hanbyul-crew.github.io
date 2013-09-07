@@ -1306,7 +1306,8 @@ blockquote p {
   .show-for-print {
     display: inherit !important; } }
 
-.logobutton{
+.logobutton
+{
   background-image:url("https://github.com/hanbyul-crew/hanbyul-crew.github.io/blob/master/img/background.jpg");
   width:50px;
   height:30px;
@@ -1328,9 +1329,9 @@ button, .button {
   text-align: center;
   display: inline-block;
   padding-top: 0.75em;
-  padding-right: 1.1em;
+  padding-right: 1.13em;
   padding-bottom: 0.8125em;
-  padding-left: 1.1em;
+  padding-left: 1.13em;
   font-size: 1em;
   background-color: #ec4477;
   border-color: #e51856;
