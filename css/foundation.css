@@ -1307,7 +1307,7 @@ blockquote p {
     display: inherit !important; } }
 
 .logobutton{
-  background-url:("https://github.com/hanbyul-crew/hanbyul-crew.github.io/blob/master/img/background.jpg");
+  background-image:url("https://github.com/hanbyul-crew/hanbyul-crew.github.io/blob/master/img/background.jpg");
   width:50px;
 }
 
