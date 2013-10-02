@@ -1,17 +1,17 @@
 ---
 layout: post
-title:  Casey Reas - ULTRACONCENTRATED
-season:autumn, 2013
+title:  "Casey Reas - ULTRACONCENTRATED"
+season: autumn, 2013
 writingdate:   2013-10-01
 category: blog
 writer: Hanbyul Jo
 ---
 
- Processing의 설립자인 [Casey Reas]("http://reas.com/") 쨔응이 9월에서부터 10월 중순까지 Chelsea bitform gallery에서 전시를 한다고 하여 저의 마음은 여름방학부터 부풀어올랐으나.. 실제로 가기는 저번주에나 갔네요. 게으른 나의 몸뚱아리란. 
+ Processing의 설립자인 [Casey Reas](http://reas.com/) 쨔응이 9월에서부터 10월 중순까지 Chelsea bitform gallery에서 전시를 한다고 하여 저의 마음은 여름방학부터 부풀어올랐으나.. 실제로 가기는 저번주에나 갔네요. 게으른 나의 몸뚱아리란. 
 
  Bitform 은 뉴미디어 쪽에서 꾸준한 갤러리랄까요, 역시나 디지털 아트 센터로 유명한 eyebeam 근처에 위치하여 있습니다. 개인전 위주라 전시하는 작가의 성향에 따라 느낌이 굉장히 달라지지만, 몇 번 방문해본 으로는 개념이 도드라지는 전시가 많았습니ㄷ. 아쉬운 점으로는 지하철역에서 겁나 먼데 규모는 참 소담하여 "걸어온 보람을 느끼게 해줘어엌!!"하는 기분이 든달까.. 뭐 그렇습니다.
 
- 여튼 훨씬 나은 질의 사진과 훨씬 제대로된 정보는 [비트폼 공식사이트]("http://www.bitforms.com/current-exhibitions.html#id=169&num=1")에서 얻으실 수 있습니다.
+ 여튼 훨씬 나은 질의 사진과 훨씬 제대로된 정보는 [비트폼 공식사이트](http://www.bitforms.com/current-exhibitions.html#id=169&num=1)에서 얻으실 수 있습니다.
 
  ![alt text](http://hanbyul-crew.github.io/img/caseyreas/caseyreas0.jpg "casey reas 0")
  ![alt text](http://hanbyul-crew.github.io/img/caseyreas/caseyreas1.jpg "casey reas 1")
