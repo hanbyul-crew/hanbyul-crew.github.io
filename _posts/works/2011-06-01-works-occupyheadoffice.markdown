@@ -22,7 +22,7 @@ subcategory: installation
 
 'Occupy Head Office' is an interactive media project against Seoul National University's incorrigible decision on incorporation.
 
-In 2011 summer, Seoul National University, the university we attend, made a decision to incorporate the university without an agreement from university’s members, including students.  Opposing to this arbitrary decision, students engaged themselves to a sit-in protest, occupying the school’s administrative building, until the school agreed to have a talk with them. The sit-in protest was in a cheerful mood; students held a small music events or made a parody music videos of the university’s rash and corrupt decision. We also went to the administrative building every night and projected satire images on university or students’ opinions about incorporation on Twitter.
+In 2011 summer, Seoul National University, the university me and my friends attend, made a decision to incorporate the university without the agreements from university’s members, including students.  Opposing to this arbitrary decision, students engaged themselves to a sit-in protest, occupying the school’s administrative building, until the university agree to have a talk with them. The sit-in protest was held in cheerful mood; students held a small music events or made a parody music videos of the university’s rash and corrupt decision. We also went to the administrative building every night and projected art pieces, such as satire images on university or students’ opinions on Twitter about incorporation.
 
 '본부 점거' 는 서울대학교 법인화에 반대하는 인터랙티브 미디어 프로젝트입니다. 
 
