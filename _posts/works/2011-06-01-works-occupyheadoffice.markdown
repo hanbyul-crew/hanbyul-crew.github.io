@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Occupy Head Office"
+title:  "Occupy the Administration Centre"
 category: works
 season: Summer, 2012
 date:  2011-06-01
@@ -20,9 +20,9 @@ subcategory: installation
 ![alt text](http://hanbyul-here.net/images/occupyheadoffice/02.jpg "occupy head office 2")
            
 
-'Occupy Head Office' is an interactive media project against Seoul National University's incorrigible decision on incorporation.
+'Occupy the Administration Centre' is an interactive media project against Seoul National University's incorrigible decision on incorporation.
 
-In 2011 summer, Seoul National University, the university me and my friends attend, made a decision to incorporate the university without the agreements from university’s members, including students.  Opposing to this arbitrary decision, students engaged themselves to a sit-in protest, occupying the school’s administrative building, until the university agree to have a talk with them. The sit-in protest was held in cheerful mood; students held a small music events or made a parody music videos of the university’s rash and corrupt decision. We also went to the administrative building every night and projected art pieces, such as satire images on university or students’ opinions on Twitter about incorporation.
+In 2011 summer, Seoul National University, the university me and my friends attend, made a decision to incorporate the university without the agreements from university’s members, including students.  Opposing to this arbitrary decision, students engaged themselves to a sit-in protest, occupying the school’s administration centre building, until the university agree to have a talk with them. The sit-in protest was held in cheerful mood; students held a small music events or made a parody music videos of the university’s rash and corrupt decision. We also went to the administrative building every night and projected art pieces, such as satire images on university or students’ opinions on Twitter about incorporation.
 
 '본부 점거' 는 서울대학교 법인화에 반대하는 인터랙티브 미디어 프로젝트입니다. 
 
