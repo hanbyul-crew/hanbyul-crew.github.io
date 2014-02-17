@@ -1,2 +1,4 @@
 _site
 .DS_Store
+git-credential-osxkeychain
+_config.yml
